@@ -5,7 +5,7 @@ const https = require("https");
 
 const app = express();
 
-app.use(express.static("public")); //MUST need for static files 
+//app.use(express.static("public")); //MUST need for static files 
 
 app.use(bodyParser.urlencoded({extended: true}));
 
